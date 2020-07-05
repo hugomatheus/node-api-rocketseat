@@ -1,0 +1,24 @@
+Docker para mongodb
+Criando:
+sudo docker pull mongo
+sudo docker run --name mongodb -p 27017:27017 -d mongo
+Rodar 
+sudo docker start mongodb
+
+
+npm install express --save
+npm install mongoose --save
+
+
+npm install require-dir --save
+// Utilizado para importar automaticamente todos os models da pasta models do projeto 
+// const requireDir = require('require-dir');
+// requireDir('./src/models');
+// caso não utilize 
+// require('./src/models/Product');
+// para cada models
+
+// Paginação query
+npm install mongoose-paginate-v2
+
+Robo 3t = ferramenta para gerenciamento do mongodb
